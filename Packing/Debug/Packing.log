@@ -1,0 +1,5 @@
+﻿  Box.cpp
+c:\users\ropur\documents\visual studio 2015\projects\packing\packing\box.cpp(8): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ropur\documents\visual studio 2015\projects\packing\packing\box.cpp(22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\ropur\documents\visual studio 2015\projects\packing\packing\box.cpp(31): error C2065: 'M_PI': undeclared identifier
+c:\users\ropur\documents\visual studio 2015\projects\packing\packing\box.cpp(41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
