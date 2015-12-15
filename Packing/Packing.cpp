@@ -3,11 +3,14 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
 #include "Box.h"
 
 int main()
 {
-	
+	srand(time(NULL));
+
     return 0;
 }
 

@@ -5,7 +5,6 @@
 
 
 Box::Box(){	
-	srand(time(NULL)); //do maina
 	Box::baseSize = rand() % 10 + 1;
 }
 

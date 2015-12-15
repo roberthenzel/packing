@@ -2,8 +2,6 @@
 #ifndef BOX_H
 #define BOX_H
 
-#include <stdlib.h>
-#include <time.h>
 #include <cmath>
 
 class Box
