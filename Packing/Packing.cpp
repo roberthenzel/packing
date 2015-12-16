@@ -6,10 +6,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include "Box.h"
+#include "Pack.h"
 
 int main()
 {
 	srand(time(NULL));
+	
 
     return 0;
 }

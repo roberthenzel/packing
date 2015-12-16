@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Box.h"
-#include <cmath>
+#define _USE_MATH_DEFINES
+#include <math.h>
+
 
 
 
