@@ -8,6 +8,8 @@ class Box
 {
 private:
 	short baseSize;
+protected:	
+	float volume;
 public:
 	Box();
 	virtual ~Box();
@@ -17,7 +19,6 @@ public:
 class Ball : public Box
 {
 private:
-	float volume;
 public:
 	Ball();
 	virtual ~Ball();
@@ -26,7 +27,6 @@ public:
 class Cube : public Box
 {
 private:
-	float volume;
 public:
 	Cube();
 	virtual	~Cube();
@@ -35,7 +35,6 @@ public:
 class Tetrahederon : public Box
 {
 private:
-	float volume;
 public:
 	Tetrahederon();
 	virtual ~Tetrahederon();

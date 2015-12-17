@@ -7,7 +7,7 @@
 
 
 Box::Box(){	
-	Box::baseSize = rand() % 10 + 1;
+	baseSize = rand() % 10 + 1;
 }
 
 Box::~Box(){
@@ -20,7 +20,7 @@ short Box::base() {
 
 Cube::Cube() {
 	auto a = base();
-	Cube::volume = a * a * a;
+	volume = a * a * a;
 }
 
 Cube::~Cube() {
@@ -38,8 +38,8 @@ Ball::~Ball() {
 }
 
 Tetrahederon::Tetrahederon() {
-	short a = base();
-	Tetrahederon::volume = (sqrt(2) / 12) * pow(a, 3);
+	auto a = base();
+	volume = (sqrt(2) / 12) * pow(a, 3);
 }
 
 Tetrahederon::~Tetrahederon() {
