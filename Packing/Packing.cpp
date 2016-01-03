@@ -11,7 +11,7 @@
 int main()
 {
 	srand(time(NULL));
-	Pack Packing(6,5,6,7,5000.0);
+	Pack Packing(6,5,6,7,8000.0);
 	
     return 0;
 }
